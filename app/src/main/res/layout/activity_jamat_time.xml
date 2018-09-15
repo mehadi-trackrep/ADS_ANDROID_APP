@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:weightSum="12"
+    android:background="@color/white"
+    tools:context=".JamatTimeActivity">
+
+    <LinearLayout
+        android:layout_marginTop="20sp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:layout_marginLeft="20sp"
+            android:text="District"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="serif-monospace"
+            android:layout_weight="1.5"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinner"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="0.5"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_marginTop="4dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_weight="2"
+        android:weightSum="2"
+        android:layout_marginLeft="15sp"
+        android:layout_marginRight="15sp">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="50sp"
+            android:gravity="center"
+            android:text="Masjid Name"
+            android:textColor="@color/colorPrimaryDark"
+            android:fontFamily="serif-monospace"
+            android:layout_weight="0.75"
+            android:textSize="18sp"/>
+
+        <Spinner
+            android:id="@+id/spinner1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.25"
+            android:fontFamily="serif-monospace"
+            android:textColor="@color/colorPrimary"/>
+
+    </LinearLayout>
+
+    <Button
+        android:layout_marginTop="5dp"
+        android:paddingLeft="5sp"
+        android:paddingRight="5sp"
+        android:background="@color/colorPrimary"
+        android:id="@+id/btnShowLocations"
+        android:textColor="@color/white"
+        android:text="Get Masjids Location"
+        android:layout_weight="2"
+        android:layout_gravity="right"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:fontFamily="serif-monospace" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_weight="6"
+        android:weightSum="6">
+
+        <TextView
+            android:layout_marginTop="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="50sp"
+            android:text="Jamat Time of DD/MM/YY :"
+            android:textSize="25sp"
+            android:fontFamily="sans-serif"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:id="@+id/home_tvSalatTime" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_marginTop="4dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="5" >
+        </ListView>
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:weightSum="10"
+    android:layout_marginTop="20sp">
+
+    <TextView
+        android:id="@+id/tvSalatName"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="5"
+        android:text="Fajr:"
+        android:textSize="15sp"/>
+
+    <TextView
+        android:id="@+id/tvSalatTime"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="50sp"
+        android:layout_weight="5"
+        android:text="4:25 AM"
+        android:textSize="15sp"/>
+
+</LinearLayout>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="planets_array">
+        <item>Sylhet</item>
+        <item>Dhaka</item>
+        <item>Chittagong</item>
+        <item>Barisal</item>
+        <item>Khulna</item>
+        <item>Rajshahi</item>
+        <item>Rongpur</item>
+        <item>Mymensingh</item>
+    </string-array>
+
+</resources>
